@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg8K2jT30h2eTVxMirstSuDZFxybxmGFf3eXBS910-k0c6_EwXzzmyJl8C63-ouGl0ej4&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color:plum;
+  }
+  
+ 
+.bannerBgImage{
+    height: 100vh;
+    background: url("https://cdn.dribbble.com/users/2863841/screenshots/14305798/media/9956eef7194c2963bb038135f5c68cac.gif");
+    background-size: cover;
+    position: relative;
+}
+.bannertext{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor:pointer;
+
+}
+.card:hover{
+    background-color: pink;
+    border: 3px solid black;
+}
+.bIcon{
+    width: 100%;
+    text-align:center;
+    font-size: 40px;
+}
+.img-fluid:hover
+{
+    border: 3px solid black;
+}
